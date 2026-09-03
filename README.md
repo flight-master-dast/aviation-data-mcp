@@ -1,6 +1,6 @@
 # Flight Master Aviation Data MCP
 
-Official MCP integration documentation for **Flight Master DAST**, providing aviation data capabilities for AI agents, coding assistants, and MCP-compatible applications.
+Official MCP integration documentation for **Flight Master DAST (航班管家 DAST)**, providing aviation data capabilities for AI agents, coding assistants, and MCP-compatible applications.
 
 Flight Master Aviation Data MCP provides access to flight status, route flights, onboard experience, delay risk prediction, airport weather, and flight trajectory data through the Model Context Protocol (MCP).
 
