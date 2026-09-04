@@ -3,7 +3,7 @@
   "name": "io.github.flight-master-dast/aviation-data-mcp",
   "title": "航班管家航空数据 MCP | Flight Master Aviation Data MCP",
   "description": "航班管家 DAST 官方航空数据 MCP，提供航班动态、天气、轨迹、延误风险及机场/航司运行统计。Official Flight Master aviation data MCP.",
-  "version": "1.0.1"
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/flight-master-dast/aviation-data-mcp",
     "source": "github"
