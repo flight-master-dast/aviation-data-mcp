@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.flight-master-dast/aviation-data-mcp",
+  "title": "Flight Master Aviation Data MCP",
+  "description": "Official Flight Master MCP for flight status, routes, weather, delay risk and trajectories.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/flight-master-dast/aviation-data-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fly.huoli.com/mcp/dast_mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer {api_key}",
+          "variables": {
+            "api_key": {
+              "description": "Flight Master DAST API Key",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
