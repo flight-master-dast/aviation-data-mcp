@@ -13,11 +13,29 @@
     "aviation",
     "flight",
     "flight-status",
+    "aviation-data",
     "weather",
     "delay-risk",
     "trajectory",
-    "Flight Master",
-    "航班管家",
+    "flight-master",
     "MCP"
-  ]
+  ],
+  "userConfig": {
+    "dast_api_key": {
+      "type": "string",
+      "title": "Flight Master DAST API Key",
+      "description": "Enter your Flight Master DAST API Key to access the aviation data MCP service.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "flight-master-dast": {
+      "type": "http",
+      "url": "https://fly.huoli.com/mcp/dast_mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.dast_api_key}"
+      }
+    }
+  }
 }
