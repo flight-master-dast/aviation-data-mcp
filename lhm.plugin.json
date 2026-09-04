@@ -1,0 +1,33 @@
+{
+  "identifier": "flight-master-aviation-data-mcp",
+  "name": "Flight Master Aviation Data MCP",
+  "version": "1.0.1",
+  "description": "Official aviation data MCP by Flight Master DAST (航班管家 DAST) for flight status, weather, delay risk and trajectories.",
+  "author": "Flight Master DAST",
+  "homepage": "https://dast.133.cn/mcp/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flight-master-dast/aviation-data-mcp"
+  },
+  "tags": [
+    "mcp",
+    "aviation",
+    "aviation-data",
+    "flight-data",
+    "flight-status",
+    "weather",
+    "delay-risk",
+    "trajectory",
+    "flight-master"
+  ],
+  "mcp": {
+    "type": "http",
+    "url": "https://fly.huoli.com/mcp/dast_mcp",
+    "transport": "streamable-http",
+    "auth": {
+      "type": "bearer",
+      "header": "Authorization",
+      "description": "Use a Flight Master DAST API Key. Header value format: Bearer <API_KEY>."
+    }
+  }
+}
