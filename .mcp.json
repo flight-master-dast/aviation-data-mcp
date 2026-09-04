@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "flight-master-dast": {
+      "url": "https://fly.huoli.com/mcp/dast_mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_DAST_API_KEY"
+      }
+    }
+  }
+}
