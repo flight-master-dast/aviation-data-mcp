@@ -1,0 +1,23 @@
+{
+  "name": "flight-master-aviation-data-mcp",
+  "displayName": "Flight Master Aviation Data MCP",
+  "version": "1.0.1",
+  "description": "Official aviation data MCP by Flight Master DAST (航班管家 DAST) for flight status, weather, delay risk and trajectories.",
+  "author": {
+    "name": "Flight Master DAST",
+    "url": "https://github.com/flight-master-dast"
+  },
+  "homepage": "https://dast.133.cn/mcp/",
+  "repository": "https://github.com/flight-master-dast/aviation-data-mcp",
+  "keywords": [
+    "aviation",
+    "flight",
+    "flight-status",
+    "weather",
+    "delay-risk",
+    "trajectory",
+    "Flight Master",
+    "航班管家",
+    "MCP"
+  ]
+}
