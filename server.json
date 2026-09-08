@@ -3,7 +3,7 @@
   "name": "io.github.flight-master-dast/aviation-data-mcp",
   "title": "航班管家航空数据 MCP | Flight Master Aviation Data MCP",
   "description": "航班管家 DAST 官方航空数据 MCP，支持 Remote HTTP 与 npm STDIO，提供航班动态、天气、轨迹及延误风险。Official Flight Master MCP.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "url": "https://github.com/flight-master-dast/aviation-data-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
     {
       "registryType": "npm",
       "identifier": "@flightmaster/aviation-dast-mcp",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
