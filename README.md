@@ -142,7 +142,7 @@ DAST_API_KEY=<API_KEY>
 
 ## Available Tools
 
-The MCP server currently provides the following six tools:
+The MCP server currently provides the following nine tools:
 
 | Tool | Capability |
 | --- | --- |
@@ -152,12 +152,17 @@ The MCP server currently provides the following six tools:
 | `dast_delay_rate` | Query predicted flight delay and cancellation probabilities |
 | `dast_future_weather` | Query hourly airport weather forecasts for the next 48 hours |
 | `dast_flight_path` | Query real-time or historical flight trajectory, position, altitude, speed, and flight status |
+| `dast_flight_overview_daily` | Generate a nationwide daily civil aviation operations overview and return a downloadable Excel report |
+| `dast_airport_operation_statistics` | Generate airport operation statistics and return a downloadable Excel report |
+| `dast_airline_operation_statistics` | Generate airline operation statistics and return a downloadable Excel report |
 
-For complete Tool schemas, parameters, response structures, routing rules, and usage guidance, see:
+The three operation statistics tools return downloadable Excel links that remain valid for 1 hour after a successful call.
+
+For complete tool schemas, parameters, response structures, routing rules, and usage guidance, see:
 
 https://dast.133.cn/mcp_assets/agent.md
 
-> The live MCP `tools/list` response should be treated as the authoritative source if Tool definitions change.
+> The live MCP `tools/list` response should be treated as the authoritative source if tool definitions change.
 
 ---
 
